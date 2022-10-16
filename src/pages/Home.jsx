@@ -29,7 +29,8 @@ const Movie = () => {
     <div className="container">
         <h2 className="title">Melhores filmes</h2>
         <div className="movies-container">
-        {topMovies && topMovies.map((movie)=> <p>{movie.title}</p>)}
+        {topMovies.length === 0 && <p>Carregando...</p>}
+        {topMovies.length > 0 && topMovies.map((movie)=> <p>{movie.title}</p>)}
         </div>
     </div>
   );
