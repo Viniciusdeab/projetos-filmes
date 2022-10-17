@@ -16,7 +16,6 @@ const Movie = () => {
     const data = await res.json();
 
     setTopMovies(data.results);
-
   };
 
   useEffect(()=>{
@@ -25,7 +24,7 @@ const Movie = () => {
 
     getTopRatedMovies(topRatedURL);
 
-  }, [])
+  }, []);
 
 
   return (
