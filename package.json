@@ -1,13 +1,19 @@
 {
   "name": "movies_lib",
   "private": true,
+<<<<<<< HEAD
   "homepage": "./",
+=======
+  "homepage": "./", 
+>>>>>>> 0df6a8625d458346eed7194afcf26a7a02d215c8
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
