@@ -1,12 +1,12 @@
 {
   "name": "movies_lib",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://viniciusdeab.github.io/projetos-filmes/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp build/index.html build/404.html",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
