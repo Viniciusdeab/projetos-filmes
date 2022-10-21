@@ -1,7 +1,7 @@
 {
   "name": "movies_lib",
   "private": true,
-  "homepage": "https://github.com/viniciusdeab/projetos-filmes/",
+  "homepage": "https://viniciusdeab.github.io/projetos-filmes/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
